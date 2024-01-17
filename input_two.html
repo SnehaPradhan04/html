@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>forms one</title>
+    <style>
+        body {
+            background: #414141;
+            color: #fff;
+        }
+    </style>
+</head>
+<body>
+    <h1>Forms in HTML</h1>
+    <form action="url" method="GET" accept-charset="UTF-8" autocomplete="off"
+    enctype="" >
+        <label for="fname">First Name</label> <br>
+        <input type="text" placeholder="first name" name="" value="Sneha" id="fname">
+        <input type="password" name="" id="">
+        <input type="week" name="" id="">
+        <input type="reset" value="reset">
+        <select name="editors" id="" multiple>
+            <option value="vscode">vscode</option>
+            <option value="sublime">sublime</option>
+        </select>
+
+        <input list="editors" name="editor" placeholder="choice">
+        <datalist id="editors">
+            <option value="vscode">vscode</option>
+            <option value="sublime">sublime</option>
+        </datalist>
+
+        <input type="hidden" name="">
+
+        <input type="email" placeholder="email-id" id="">
+        <button type="submit">SUBMIT</button>
+    </form>
+</body>
+</html>
